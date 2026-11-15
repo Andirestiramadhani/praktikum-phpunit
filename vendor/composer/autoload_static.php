@@ -35,6 +35,7 @@ class ComposerStaticInitbb0bd5c0a3ae34cee91ba8e108eff70d
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Email' => __DIR__ . '/../..' . '/src/Email.php',
         'Greeter' => __DIR__ . '/../..' . '/src/Greeter.php',
         'PHPUnit\\Event\\Application\\Finished' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/Finished.php',
         'PHPUnit\\Event\\Application\\FinishedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/FinishedSubscriber.php',

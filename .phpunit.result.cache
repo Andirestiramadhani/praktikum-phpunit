@@ -1,1 +1,1 @@
-{"version":1,"defects":{"GreeterTest::testGreetsWithName":7},"times":{"GreeterTest::testGreetsWithName":0.012}}
+{"version":1,"defects":{"GreeterTest::testGreetsWithName":7,"EmailTest::testCanBeCreatedFromValidEmail":7},"times":{"GreeterTest::testGreetsWithName":0.001,"EmailTest::testCanBeCreatedFromValidEmail":0.009}}
