@@ -37,6 +37,7 @@ class ComposerStaticInitbb0bd5c0a3ae34cee91ba8e108eff70d
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Email' => __DIR__ . '/../..' . '/src/Email.php',
         'Greeter' => __DIR__ . '/../..' . '/src/Greeter.php',
+        'KonversiSuhu' => __DIR__ . '/../..' . '/src/KonversiSuhu.php',
         'PHPUnit\\Event\\Application\\Finished' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/Finished.php',
         'PHPUnit\\Event\\Application\\FinishedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/FinishedSubscriber.php',
         'PHPUnit\\Event\\Application\\Started' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/Started.php',
