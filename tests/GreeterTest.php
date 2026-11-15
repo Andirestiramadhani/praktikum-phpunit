@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
-use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
 
 final class GreeterTest extends TestCase
 {
@@ -14,9 +14,10 @@ final class GreeterTest extends TestCase
         $greeting = $greeter->greet('Alice');
 
         // Assert: bandingkan hasil dengan harapan
-        $this->assertEquals('Hello, Alice!', $greeting);
+        $this->assertSame('Hello, Alice!', $greeting);
     }
-        #[DataProvider('nameProvider')]
+
+    #[DataProvider('nameProvider')]
     public function testGreetsEachName(string $name, string $expected): void
     {
         $greeter = new Greeter();
@@ -31,6 +32,7 @@ final class GreeterTest extends TestCase
             'nama pendek'       => ['Ani', 'Hello, Ani!'],
             'nama dengan spasi' => ['Siti Aminah', 'Hello, Siti Aminah!'],
             'huruf kecil'       => ['dedi', 'Hello, dedi!'],
+            'spasi di tepi' => [' Ani ', 'Hello,  Ani !'],
         ];
     }
 }
